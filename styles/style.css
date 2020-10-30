@@ -349,8 +349,8 @@ body {
 
 .aside .row {
   border-bottom: #2b2647 solid 2px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .aside .row .text-white {
@@ -359,17 +359,17 @@ body {
   font-size: 14px;
 }
 
-.aside .row .text-muted {
-  margin-left: 5px;
-}
-
 .aside .row .guy {
   margin-top: 13px;
   border: white solid 3px;
 }
 
+.aside .row .comment .text-muted {
+  margin-left: 5px;
+}
+
 .aside .row .text-muted {
-  margin-bottom: 0;
+  margin: 0;
   font-family: "Varela Round", sans-serif;
   font-size: 10px;
 }

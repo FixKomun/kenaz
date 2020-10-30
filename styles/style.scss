@@ -248,22 +248,24 @@ body {
   }
   .row {
     border-bottom: #2b2647 solid 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     .text-white {
       font-family: "Bitter", sans-serif;
       font-weight: bold;
       font-size: 14px;
     }
-    .text-muted {
-      margin-left: 5px;
-    }
     .guy {
       margin-top: 13px;
       border: white solid 3px;
     }
+    .comment {
+      .text-muted {
+        margin-left: 5px;
+      }
+    }
     .text-muted {
-      margin-bottom: 0;
+      margin: 0;
       font-family: "Varela Round", sans-serif;
       font-size: 10px;
     }
