@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  /*
   $(".after").on("click", function () {
     var currentImg = $(".active");
     var nextImg = currentImg.next();
@@ -20,5 +21,11 @@ $(document).ready(function () {
       currentImg.removeClass("active");
       prevImg.addClass("active");
     }
+  });
+*/
+  $("h2.click").on("click", function () {
+    activeButton = $(".clicked");
+    activeButton.removeClass("clicked");
+    $(this).addClass("clicked");
   });
 });
