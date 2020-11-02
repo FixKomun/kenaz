@@ -1,0 +1,175 @@
+.main-image {
+  position: relative;
+  height: 588px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.main-image .image-description {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  color: #222222, 100%;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+}
+
+.main-image .image-description .lead {
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.left .main-article {
+  background-color: #ffffff;
+  padding: 30px 15px 0px 30px;
+}
+
+.left .main-article p {
+  font-family: "Bitter", sans-serif;
+  font-size: 14px;
+  color: #444444;
+}
+
+.left .main-article .book {
+  max-width: 100%;
+  height: 357px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.left .main-article .bottom {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.left .main-article .bottom img {
+  width: 20px;
+  height: 15px;
+}
+
+.left .main-article .bottom a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.left .main-article .bottom .btn-sm {
+  background: #dddddd;
+}
+
+.left .about {
+  background-color: #ffffff;
+  padding: 18px 25px 30px 30px;
+}
+
+.left .about h2 {
+  font-family: "Bitter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #363f48;
+  margin-bottom: 20px;
+}
+
+.left .about p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 13px;
+  color: #444444;
+}
+
+.left .about .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left .about .description img {
+  height: 100px;
+  width: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+}
+
+.left .comment-section {
+  margin-top: 30px;
+  padding: 15px 30px 0 30px;
+  background-color: #ffffff;
+}
+
+.left .comment-section h2 {
+  font-family: "Bitter", serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.left .comment-section .col-lg-2 {
+  padding-right: 0;
+}
+
+.left .comment-section .col-lg-10 {
+  padding-left: 0;
+}
+
+.left .comment-section .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-height: 25px;
+}
+
+.left .comment-section .info h3 {
+  font-family: "Bitter", serif;
+  font-size: 18px;
+}
+
+.left .comment-section .info a {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.left .comment-section .info .date {
+  margin-top: 5px;
+  margin-right: 180px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 11px;
+}
+
+.left .comment-section .info .description p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 13px;
+  color: #444444;
+}
+
+.left .comment-section form {
+  padding-bottom: 30px;
+}
+
+.left .comment-section form h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left .comment-section form input {
+  width: 300px;
+  border-radius: 0;
+  background-color: #dddddd;
+}
+
+.left .comment-section form textarea {
+  background-color: #dddddd;
+}
+
+.left .comment-section form button {
+  background-color: #4d4382;
+  color: #ffffff;
+  width: 150px;
+  height: 50px;
+  border-radius: 0;
+}
+/*# sourceMappingURL=style3.css.map */

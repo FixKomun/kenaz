@@ -22,6 +22,11 @@ $(document).ready(function () {
       prevImg.addClass("active");
     }
   });
+
+
+  $(".number-list .btn").on("click", function () {
+    $(this).css("background-color", "purple");
+  });
 */
   $("h2.click").on("click", function () {
     activeButton = $(".clicked");

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,800;1,900&display=swap");
+.left {
+  padding-right: 0;
+}
+
+.left .news-row {
+  background-color: #ffffff;
+  padding: 15px 30px 70px 30px;
+  border-bottom: #dddddd solid 1px;
+}
+
+.left .news-row .heading h2 {
+  margin-bottom: 30px;
+}
+
+.left .news-row .heading h2,
+.left .news-row .heading p {
+  font-family: "Bitter", serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #363f48;
+}
+
+.left .news-row .heading-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+}
+
+.left .news-row .author {
+  margin-left: 30px;
+}
+
+.left .news-row .calendar {
+  height: 16px;
+  margin-right: 5px;
+}
+
+.left .news-row .row .col-lg-4,
+.left .news-row .row .col-lg-8 {
+  padding-right: 0;
+}
+
+.left .news-row .row img {
+  width: 100%;
+  height: 140px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.left .news-row .row p {
+  margin-top: -5px;
+  font-family: "Bitter", serif;
+}
+
+.left .news-row .row button {
+  width: 123px;
+  height: 33px;
+  border-radius: 0;
+  background-color: #4d4382;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+}
+
+.left .number-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  height: 95px;
+  padding-left: 30px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.left .number-list button {
+  width: 33px;
+  height: 32px;
+  background-color: #dddddd;
+  border-radius: 0;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #4d4382;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.right .kenaz-tv {
+  position: relative;
+}
+
+.right .kenaz-tv .play-button {
+  top: 150px;
+  left: 40%;
+}
+/*# sourceMappingURL=style2.css.map */

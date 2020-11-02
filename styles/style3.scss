@@ -1,0 +1,141 @@
+.main-image {
+  position: relative;
+  height: 588px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  .image-description {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #222222, 100%;
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    .lead {
+      font-family: "Bitter", serif;
+      font-weight: 700;
+      font-size: 44px;
+    }
+  }
+}
+
+.left {
+  .main-article {
+    background-color: #ffffff;
+    padding: 30px 15px 0px 30px;
+    p {
+      font-family: "Bitter", sans-serif;
+      font-size: 14px;
+      color: #444444;
+    }
+    .book {
+      max-width: 100%;
+      height: 357px;
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+    .bottom {
+      padding-bottom: 20px;
+      padding-top: 40px;
+      img {
+        width: 20px;
+        height: 15px;
+      }
+      a {
+        text-decoration: none;
+        margin-left: 10px;
+      }
+      .btn-sm {
+        background: #dddddd;
+      }
+    }
+  }
+  .about {
+    background-color: #ffffff;
+    padding: 18px 25px 30px 30px;
+    h2 {
+      font-family: "Bitter", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: #363f48;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: "Varela Round", sans-serif;
+      font-size: 13px;
+      color: #444444;
+    }
+    .description {
+      display: flex;
+      img {
+        height: 100px;
+        width: 110px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+    }
+  }
+  .comment-section {
+    margin-top: 30px;
+    padding: 15px 30px 0 30px;
+    background-color: #ffffff;
+    h2 {
+      font-family: "Bitter", serif;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    .col-lg-2 {
+      padding-right: 0;
+    }
+    .col-lg-10 {
+      padding-left: 0;
+    }
+    .info {
+      display: flex;
+      justify-content: space-between;
+      max-height: 25px;
+      h3 {
+        font-family: "Bitter", serif;
+        font-size: 18px;
+      }
+      a {
+        font-family: "Varela Round", sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      .date {
+        margin-top: 5px;
+        margin-right: 180px;
+        font-family: "Varela Round", sans-serif;
+        font-size: 11px;
+      }
+      .description p {
+        font-family: "Varela Round", sans-serif;
+        font-size: 13px;
+        color: #444444;
+      }
+    }
+    form {
+      padding-bottom: 30px;
+      h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      input {
+        width: 300px;
+        border-radius: 0;
+        background-color: #dddddd;
+      }
+      textarea {
+        background-color: #dddddd;
+      }
+      button {
+        background-color: #4d4382;
+        color: #ffffff;
+        width: 150px;
+        height: 50px;
+        border-radius: 0;
+      }
+    }
+  }
+}
