@@ -321,9 +321,46 @@ body {
           justify-content: space-between;
 }
 
+.news .row a,
+.sport .row a,
+.business .row a,
+.news-carousel .row a,
+.editorials .row a,
+.local-news .row a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.news .row a:hover,
+.sport .row a:hover,
+.business .row a:hover,
+.news-carousel .row a:hover,
+.editorials .row a:hover,
+.local-news .row a:hover {
+  color: #1c2d52;
+}
+
 .sport {
   border-left: #84c14f solid 13px;
   margin-top: 20px;
+}
+
+.editorials a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.editorials a:hover {
+  color: #1c2d52;
+}
+
+.local-news a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.local-news a:hover {
+  color: #1c2d52;
 }
 
 .aside {
@@ -372,6 +409,15 @@ body {
   margin: 0;
   font-family: "Varela Round", sans-serif;
   font-size: 10px;
+}
+
+.aside .row a {
+  text-decoration: none;
+  color: white;
+}
+
+.aside .row a:hover {
+  color: #1c2d52;
 }
 
 .list-group-item {
@@ -454,6 +500,11 @@ body {
   padding-top: 3px;
 }
 
+.social .like a {
+  text-decoration: none;
+  color: #363f48;
+}
+
 .social .fans {
   background-color: #4d4382;
   -ms-flex-preferred-size: 50%;
@@ -505,6 +556,15 @@ body {
   font-family: "Bitter", serif;
   font-weight: 700;
   padding: 20px;
+}
+
+.kenaz-tv a {
+  text-decoration: none;
+  color: black;
+}
+
+.kenaz-tv a:hover {
+  color: #1c2d52;
 }
 
 .banners {
@@ -718,6 +778,17 @@ footer .featured .col-lg-4,
 footer .random-posts .col-lg-8,
 footer .random-posts .col-lg-4 {
   border-bottom: #666666 solid 1px;
+}
+
+footer .featured a,
+footer .random-posts a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .featured a:hover,
+footer .random-posts a:hover {
+  color: #adadad;
 }
 
 .twitter-wall {

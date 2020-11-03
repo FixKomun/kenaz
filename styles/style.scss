@@ -16,6 +16,7 @@ body {
   justify-content: center;
   background: #252525;
   height: 53px;
+
   .box {
     display: flex;
     justify-content: space-between;
@@ -227,12 +228,38 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  .row {
+    a {
+      text-decoration: none;
+      color: #212529;
+    }
+    a:hover {
+      color: #1c2d52;
+    }
+  }
 }
 .sport {
   border-left: #84c14f solid 13px;
   margin-top: 20px;
 }
-
+.editorials {
+  a {
+    text-decoration: none;
+    color: #212529;
+  }
+  a:hover {
+    color: #1c2d52;
+  }
+}
+.local-news {
+  a {
+    text-decoration: none;
+    color: #212529;
+  }
+  a:hover {
+    color: #1c2d52;
+  }
+}
 .aside {
   background: #4d4382;
   padding: 0px 15px 0px 15px;
@@ -268,6 +295,13 @@ body {
       margin: 0;
       font-family: "Varela Round", sans-serif;
       font-size: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      color: #1c2d52;
     }
   }
 }
@@ -340,6 +374,10 @@ body {
     font-weight: 700;
     padding-left: 10px;
     padding-top: 3px;
+    a {
+      text-decoration: none;
+      color: #363f48;
+    }
   }
   .fans {
     background-color: #4d4382;
@@ -384,6 +422,13 @@ body {
     font-family: "Bitter", serif;
     font-weight: 700;
     padding: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: #1c2d52;
   }
 }
 
@@ -564,6 +609,13 @@ footer {
     .col-lg-8,
     .col-lg-4 {
       border-bottom: #666666 solid 1px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #adadad;
     }
   }
 }

@@ -68,7 +68,7 @@
       display: flex;
       img {
         height: 100px;
-        width: 110px;
+        min-width: 110px;
         object-fit: cover;
         margin-right: 20px;
       }
@@ -128,6 +128,7 @@
       }
       textarea {
         background-color: #dddddd;
+        max-width: 570px;
       }
       button {
         background-color: #4d4382;

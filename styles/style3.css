@@ -85,7 +85,7 @@
 
 .left .about .description img {
   height: 100px;
-  width: 110px;
+  min-width: 110px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-right: 20px;
@@ -163,6 +163,7 @@
 
 .left .comment-section form textarea {
   background-color: #dddddd;
+  max-width: 570px;
 }
 
 .left .comment-section form button {
