@@ -4,6 +4,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 30px;
+  z-index: 1;
 }
 
 .main-image .image-description {
@@ -13,12 +14,23 @@
   color: #222222, 100%;
   font-family: "Varela Round", sans-serif;
   font-size: 14px;
+  z-index: 3;
 }
 
 .main-image .image-description .lead {
   font-family: "Bitter", serif;
   font-weight: 700;
   font-size: 44px;
+}
+
+.main-image .single-overlay {
+  position: absolute;
+  bottom: 0;
+  height: 588px;
+  width: 940px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 21, 7, 0.192)), to(rgba(255, 255, 255, 0.7)));
+  background: linear-gradient(to bottom, rgba(43, 21, 7, 0.192), rgba(255, 255, 255, 0.7));
+  z-index: 2;
 }
 
 .left .main-article {

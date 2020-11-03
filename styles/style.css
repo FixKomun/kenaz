@@ -169,29 +169,6 @@ body {
   margin: 16px auto;
 }
 
-.article {
-  /* Nesto ne valja ovo.Ne mogu napraviti filter.
-  .background {
-    position: relative;
-    z-index: 2;
-  }
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    width: 940px;
-    height: 100px;
-    object-fit: cover;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      0deg,
-      rgba(2, 0, 36, 1) 43%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    z-index: 1;
-  }
-  */
-}
-
 .article .container {
   position: absolute;
   bottom: 15px;
@@ -255,10 +232,29 @@ body {
      object-fit: cover;
 }
 
+.article .background {
+  position: relative;
+  z-index: 1;
+}
+
+.article .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 940px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(255, 255, 255, 0.089)));
+  background: linear-gradient(to top, black, rgba(255, 255, 255, 0.089));
+  z-index: 2;
+}
+
 .container {
+  position: relative;
   padding: 0;
   margin-top: 19px;
   max-width: 940px;
+  z-index: 3;
 }
 
 .news,
